@@ -1,0 +1,192 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./style.min.css")
+        link(rel="shortcut icon", href="./assets/images/content/logo_violet.svg", type="image/x-icon")
+        title I'M OK
+    body 
+        header.header 
+        main.main 
+            .main--greeting.greeting-parent 
+                .greeting-container
+                    .container 
+                        .greeting-parent__header Будьте в курсе состояния здоровья ваших близких с сервисом I’M OK
+                        .greeting-parent__subheader Контролирует показатели здоровья пожилых людей и диагностирует проблемы со здоровьем до их возникновения
+                        .greeting-parent__button Купить
+                        .greeting-parent__developers
+                            .greeting-parent__developers-logo 
+                                img(src="./assets/images/content/logo_sk.svg", alt="Skolkovo logo")
+                            .greeting-parent__developers-caption Разработано исследовательской группой «Сколково»
+                    .float-container 
+                        .float-container__label.float-container__label--first-r 
+                            span Сервис I’M OK = умный браслет
+                        .float-container__label.float-container__label--second-r 
+                            span + мобильное приложение
+                        .float-container__label.float-container__label--third-r  
+                            span + служба спасения
+                    img(src="./assets/images/content/greeting_layer.png", alt="Photos describing app").greeting-image
+            .main--functions.functions-parent#toFunctions 
+                .section-header I’M OK наблюдает за состоянием
+                .section-subheader Узнаете первым о ваших близких, если они
+                .container 
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_fall.svg", alt="")
+                        .functions-parent__header 
+                            | Упадут 
+                            br
+                            | или споткнутся
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_food.svg", alt="")
+                        .functions-parent__header
+                            | Пропустят 
+                            br
+                            | прием пищи
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_bed.svg", alt="")
+                        .functions-parent__header 
+                            | Не встанут 
+                            br
+                            | с кровати
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_amb.svg", alt="")
+                        .functions-parent__header 
+                            | Нуждаются
+                            br
+                            | в экстренной помощи
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_sleep.svg", alt="")
+                        .functions-parent__header 
+                            | Имеют плохой 
+                            br
+                            | ночной сон
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_pills.svg", alt="")
+                        .functions-parent__header 
+                            | Не принимают 
+                            br
+                            | таблетки
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_worry.svg", alt="")
+                        .functions-parent__header 
+                            | Сильно 
+                            br 
+                            | волнуются
+                    .functions-parent__card 
+                        .functions-parent__image
+                            img(src="./assets/images/content/cnd_health.svg", alt="")
+                        .functions-parent__header 
+                            | Имеют нехарактерные 
+                            br
+                            | показатели здоровья
+            .main--video.video-parent
+                .container
+                    .video-parent__caption Расскажем о нашем сервисе за 3 минуты
+                    .video-parent__label 3:00
+                    .video-parent__play-icon
+                        img(src="./assets/images/content/play_icon.svg", alt="Play Icon")
+            .main--about.about-parent 
+                .about-parent__card
+                    .container 
+                        .section-header Забота о родных на расстоянии
+                        .container-item 
+                            .about-parent__subheader Измерение показателей
+                            .about-parent__content Проверяйте состояние здоровья родственника в режиме онлайн
+                        .container-item 
+                            .about-parent__subheader Экстренные уведомления
+                            .about-parent__content Получайте уведомление, если с родственником что-то случилось
+                        .container-item 
+                            .about-parent__subheader Прием лекарств
+                            .about-parent__content Настраивайте интеллектуальные оповещения о приеме таблеток
+                    img(src="./assets/images/content/health_about.png", alt="").about-parent__image.about-parent__image--first
+                .about-parent__card
+                    .container 
+                        .section-header Мониторинг показателей здоровья 
+                        .container-item 
+                            .about-parent__subheader Артериальное давление
+                            .about-parent__content Предупреждайте экстренные ситуации, отслеживая превышение нормы артериального давления
+                        .container-item 
+                            .about-parent__subheader Сатурация
+                            .about-parent__content Диагностируйте сердечно-сосудистые и легочные заболевания, измеряя сатурацию и уровень стресса
+                        .container-item 
+                            .about-parent__subheader Пульс
+                            .about-parent__content Фиксируйте нарушение сердеченого ритма и мерцательную аритмию
+                    img(src="./assets/images/content/care_about.png", alt="").about-parent__image.about-parent__image--second
+            .main--emergency.emergency-parent 
+                .container 
+                    .emergency-parent__card
+                        .emergency-parent__image 
+                            img(src="./assets/images/content/emergency.svg", alt="")
+                        .emergency-parent__header Служба спасения
+                        .emergency-parent__content При плохом самочувствии можно вызвать службу спасения. Мы гарантируем экстренную медицинскую помощь в течение 12 минут. Нажав на кнопку SOS, в приложении придет уведомление
+                    .emergency-parent__card
+                        .emergency-parent__image 
+                            img(src="./assets/images/content/reminder.svg", alt="")
+                        .emergency-parent__header Напоминания о приеме таблеток
+                        .emergency-parent__content Родственнику будет приходить напоминание о приеме таблеток с помощью вибраций и световых оповещений на устройстве
+            .main--buy.buy-parent 
+                .container
+                    .swiper-container 
+                        .swiper#watchSwiper 
+                            .swiper-wrapper 
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide1.png", alt="")
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide2.jpg", alt="")
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide3.jpg", alt="")
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide4.jpg", alt="")
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide5.jpg", alt="")
+                                .swiper-slide.preview 
+                                    img(src="./assets/images/content/slide6.jpg", alt="")
+                            .swiper-button-next 
+                            .swiper-button-prev
+                            .swiper-pagination
+                    .buy-parent__info
+                        .buy-parent__section
+                            .buy-parent__product-header Сервис I’M OK 
+                            .buy-parent__product-description Комплект (умный браслет, мобильное приложение, служба спасения)
+                            .buy-parent__product-color 
+                                | Цвет ремешка:
+                                .color-container 
+                                    label.color-box(for="yellow")
+                                        input#yellow(type="radio", name="color" checked) 
+                                        span.checkmark
+                                    label.color-box(for="lightGreen")
+                                        input#lightGreen(type="radio", name="color") 
+                                        span.checkmark
+                                    label.color-box(for="red")
+                                        input#red(type="radio", name="color") 
+                                        span.checkmark
+                                    label.color-box(for="darkGreen")
+                                        input#darkGreen(type="radio", name="color") 
+                                        span.checkmark
+                                    label.color-box(for="blue")
+                                        input#blue(type="radio", name="color") 
+                                        span.checkmark
+                                    label.color-box(for="white")
+                                        input#white(type="radio", name="color") 
+                                        span.checkmark
+                                    label.color-box(for="pink")
+                                        input#pink(type="radio", name="color") 
+                                        span.checkmark
+                            .buy-parent__row 
+                                .buy-parent__price-container 
+                                    .buy-parent__price-tag 6990 ₽
+                                    .buy-parent__caption от 120 ₽/мес в аренду
+                                .buy-parent__button Купить
+        footer.footer
+        script(src="./assets/js/jquery.min.js") 
+        script(src="./assets/js/plugins.min.js") 
+        script(src="./assets/js/main.min.js") 
