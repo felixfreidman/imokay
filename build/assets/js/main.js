@@ -112,6 +112,12 @@
 //     });
 // }
 // deleteWarningSpans();
+var flexCards = document.querySelectorAll('.flex-card');
+flexCards.forEach(function (card) {
+  card.addEventListener('click', function () {
+    card.classList.toggle('flex-card--active');
+  });
+});
 var swiperImages = document.querySelectorAll(".preview");
 var imgLinkArray = new Array();
 var returnValue = 0;
@@ -124,9 +130,9 @@ swiperImages.forEach(function (slide) {
   var returnValue = "<img class=\"swiper-preview swiper-pagination-bullet\" src=".concat(imageSrc, ">");
   imgLinkArray.push(returnValue);
 });
-var fancySwiper = new Swiper('#watchSwiper', {
+var watchSwiper = new Swiper('#watchSwiper', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   speed: 500,
   spaceBetween: 34,
   effect: 'cards',

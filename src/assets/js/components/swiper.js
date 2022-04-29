@@ -11,9 +11,9 @@ swiperImages.forEach(slide => {
     imgLinkArray.push(returnValue)
 })
 
-const fancySwiper = new Swiper('#watchSwiper', {
+const watchSwiper = new Swiper('#watchSwiper', {
     direction: 'horizontal',
-    loop: true,
+    loop: false,
     speed: 500,
     spaceBetween: 34,
     effect: 'cards',

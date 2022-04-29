@@ -8,8 +8,20 @@ html(lang="en")
         link(rel="shortcut icon", href="./assets/images/content/logo_violet.svg", type="image/x-icon")
         title I'M OK
     body 
-        header.header 
-        main.main 
+        header.header
+            .logo 
+                a(href="#toMain")  
+                    img(src="./assets/images/content/logo_violet.svg", alt="")
+            .navigation 
+                a(href="#toFunctions").navigation-link Функции устройства
+                a(href="#toAbount").navigation-link О продукте
+                a(href="#toFeedback").navigation-link О нас
+                a(href="#toFooter").navigation-link Контакты
+            .phone 
+                .phone-logo
+                    img(src="./assets/images/content/phone.svg", alt="")
+                a(href="tel:+79002422112").phone-num +7 (900) 242–21–12
+        main.main#toMain 
             .main--greeting.greeting-parent 
                 .greeting-container
                     .container 
@@ -94,7 +106,7 @@ html(lang="en")
                     .video-parent__label 3:00
                     .video-parent__play-icon
                         img(src="./assets/images/content/play_icon.svg", alt="Play Icon")
-            .main--about.about-parent 
+            .main--about.about-parent#toAbout 
                 .about-parent__card
                     .container 
                         .section-header Забота о родных на расстоянии
@@ -186,7 +198,191 @@ html(lang="en")
                                     .buy-parent__price-tag 6990 ₽
                                     .buy-parent__caption от 120 ₽/мес в аренду
                                 .buy-parent__button Купить
-        footer.footer
+                        .buy-parent__section
+                            .container 
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/tonometr.svg", alt="")
+                                    .card-header Встроенный тонометр
+                                    .card-description Для измерения артериального давления. Диагностирует сердечно-сосудистые заболевания
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/sensor.svg", alt="")
+                                    .card-header Сенсор сердеченого ритма
+                                    .card-description Для измерения ЧСС. Фиксирует нарушение ритма, мерцательную аритмию
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/stress.svg", alt="")
+                                    .card-header Интегрированный пульсооксиметр
+                                    .card-description Диагностируйте сердечно-сосудистые и легочные  заболевания, измеряя сатурацию и уровень стресса
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/fall.svg", alt="")
+                                    .card-header Умный датчик 
+                                    .card-description Чувствительные ИИ-сенсоры определяют падение
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/sos.svg", alt="")
+                                    .card-header SOS-кнопка
+                                    .card-description Гарантируем экстренную медицинскую помощь в течение 12 минут и в любой точке России
+                                .buy-parent__card 
+                                    .card-logo 
+                                        img(src="./assets/images/content/hand.svg", alt="")
+                                    .card-header Всегда на запястии
+                                    .card-description Устройство не нужно снимать с запястия для зарядки.
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/settings.svg", alt="")
+                                .flex-card__header Технические характеристики
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/sovmest.svg", alt="")
+                                .flex-card__header Совместимость
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/instruction.svg", alt="")
+                                .flex-card__header Условия использования
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/stats.svg", alt="")
+                                .flex-card__header Измеряемые показатели
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/sercificate.svg", alt="")
+                                .flex-card__header Сертификаты
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/regards.svg", alt="")
+                                .flex-card__header Награды и достижения
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+                        .flex-card
+                            .open-indicator 
+                                img(src="./assets/images/content/arrow.svg", alt="") 
+                            .flex-card__base-row 
+                                .logo 
+                                    img(src="./assets/images/content/complect.svg", alt="")
+                                .flex-card__header В комплекте
+                            .flex-card__opening-row
+                                .flex-card__content 
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/apple.svg", alt="")
+                                        .content-column__header iOS
+                                        .content-column__subheader v12 и выше
+                                    .content-column 
+                                        .content-column__logo 
+                                            img(src="./assets/images/content/android.svg", alt="")
+                                        .content-column__header Android
+                                        .content-column__subheader v5 и выше
+            .main--feedback.feedback-parent#toFeedback
+                .section-header 
+                    | Благодарности 
+                    br
+                    | наших клиентов
+                .swiper-container 
+                    .swiper#feedbackSwiper 
+                        .swiper-wrapper 
+                            .swiper-slide.feedback-slide 
+                                .blob-container 
+                                    img(src="./assets/images/content/quotes.svg", alt="").blob-container__image
+                                    .blob-container__feedback Устройство отличное, измеряет давление точно (сверяли с тонометром). Теперь не беспокоюсь за маму с ее гипертонией. Всегда с ней на связи. 
+                                .feedback-info 
+                                    .feedback-person 
+                                        img(src="", alt="")
+                                    .feedback-column 
+                                        .feedback-name Светлана
+                                        .feeedback-date 27 января 2022
+
+        footer.footer#toFooter
         script(src="./assets/js/jquery.min.js") 
         script(src="./assets/js/plugins.min.js") 
         script(src="./assets/js/main.min.js") 
