@@ -15,7 +15,7 @@ const watchSwiper = new Swiper('#watchSwiper', {
     direction: 'horizontal',
     loop: false,
     speed: 500,
-    spaceBetween: 34,
+    spaceBetween: 54,
     effect: 'cards',
     slidesPerView: '1',
     swipeHandler: '.swiper-wrapper',
@@ -30,4 +30,12 @@ const watchSwiper = new Swiper('#watchSwiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+});
+const feedbackSwiper = new Swiper('#feedbackSwiper', {
+    direction: 'horizontal',
+    loop: true,
+    speed: 500,
+    spaceBetween: 34,
+    effect: 'cards',
+    slidesPerView: '4',
 });

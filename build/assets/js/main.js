@@ -118,6 +118,12 @@ flexCards.forEach(function (card) {
     card.classList.toggle('flex-card--active');
   });
 });
+var faqCards = document.querySelectorAll('.faq-parent__card ');
+faqCards.forEach(function (card) {
+  card.addEventListener('click', function () {
+    card.classList.toggle('faq-parent__card--active');
+  });
+});
 var swiperImages = document.querySelectorAll(".preview");
 var imgLinkArray = new Array();
 var returnValue = 0;
@@ -134,7 +140,7 @@ var watchSwiper = new Swiper('#watchSwiper', {
   direction: 'horizontal',
   loop: false,
   speed: 500,
-  spaceBetween: 34,
+  spaceBetween: 54,
   effect: 'cards',
   slidesPerView: '1',
   swipeHandler: '.swiper-wrapper',
@@ -149,4 +155,12 @@ var watchSwiper = new Swiper('#watchSwiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
   }
+});
+var feedbackSwiper = new Swiper('#feedbackSwiper', {
+  direction: 'horizontal',
+  loop: true,
+  speed: 500,
+  spaceBetween: 34,
+  effect: 'cards',
+  slidesPerView: '4'
 });
