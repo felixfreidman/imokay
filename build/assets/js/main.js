@@ -162,9 +162,65 @@ var feedbackSwiper = new Swiper('#feedbackSwiper', {
   speed: 500,
   spaceBetween: 34,
   effect: 'cards',
-  slidesPerView: '4'
+  slidesPerView: '4',
+  breakpoints: {
+    1900: {
+      slidesPerView: 3,
+      spaceBetween: 34
+    },
+    1600: {
+      slidesPerView: 2,
+      spaceBetween: 34
+    },
+    950: {
+      slidesPerView: 2,
+      spaceBetween: 150
+    },
+    800: {
+      slidesPerView: 1.8,
+      spaceBetween: 150
+    },
+    650: {
+      slidesPerView: 1.5,
+      spaceBetween: 120
+    },
+    590: {
+      slidesPerView: 1.7,
+      spaceBetween: 120
+    },
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 120
+    },
+    380: {
+      slidesPerView: 0.8,
+      spaceBetween: 120
+    }
+  }
 });
 var functionSwiper = new Swiper('#functionsSwiper', {
+  direction: 'horizontal',
+  loop: true,
+  speed: 500,
+  spaceBetween: 20,
+  effect: 'cards',
+  slidesPerView: 1,
+  breakpoints: {
+    1050: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+    800: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    500: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    }
+  }
+});
+var downloadSwiper = new Swiper('#downloadSwiper ', {
   direction: 'horizontal',
   loop: true,
   speed: 500,
