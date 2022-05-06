@@ -10,3 +10,23 @@ faqCards.forEach(card => {
         card.classList.toggle('faq-parent__card--active')
     })
 })
+
+
+const burgerMenu = document.querySelector(".mobile-header__burger-menu");
+const mobileMenu = document.querySelector(".mobile-menu");
+const mobileNavigation = document.getElementById("mobileNavigation");
+const allLinks = mobileNavigation.querySelectorAll(".navigation-link");
+
+burgerMenu.addEventListener("click", () => {
+    burgerMenu.classList.toggle("mobile-header__burger-menu--active");
+    mobileMenu.classList.toggle("mobile-menu--active");
+    document.querySelector("body").classList.toggle("disable-body");
+});
+
+allLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        burgerMenu.classList.toggle("mobile-header__burger-menu--active");
+        mobileMenu.classList.toggle("mobile-menu--active");
+        document.querySelector("body").classList.toggle("disable-body");
+    });
+});

@@ -21,6 +21,24 @@ html(lang="en")
                 .phone-logo
                     img(src="./assets/images/content/phone.svg", alt="")
                 a(href="tel:+79002422112").phone-num +7 (900) 242–21–12
+        .mobile-header
+            .logo-container
+                a(href="#toMain") 
+                    img.logo#toMain(src="./assets/images/content/logo_violet.svg" alt="Company Logo")
+            .mobile-header__burger-menu
+                span.cross-one--mobile 
+                span.cross-two--mobile
+                span.cross-left
+        .mobile-menu
+            .navigation#mobileNavigation
+                a.navigation-link(href="#toFunctions") Функции устройства
+                a.navigation-link(href="#toAbout") О продукте
+                a.navigation-link(href="#toFeedback") О нас
+                a.navigation-link(href="#toFooter") Контакты
+            .phone 
+                .phone-logo
+                    img(src="./assets/images/content/phone.svg", alt="")
+                a(href="tel:+79002422112").phone-num +7 (900) 242–21–12
         main.main#toMain 
             .main--greeting.greeting-parent 
                 .greeting-container
@@ -556,14 +574,17 @@ html(lang="en")
                         .swiper#downloadSwiper 
                             .swiper-wrapper 
                                 .download-parent__benefit.download-parent__benefit--first.swiper-slide 
-                                    .download-parent__benheader Уровень активности
-                                    .download-parent__bensubheader Отслеживайте ежеденвный уровень активности в сравнении с нормальным
+                                    .download-container
+                                        .download-parent__benheader Уровень активности
+                                        .download-parent__bensubheader Отслеживайте ежеденвный уровень активности в сравнении с нормальным
                                 .download-parent__benefit.download-parent__benefit--second.swiper-slide  
-                                    .download-parent__benheader Прием лекарств
-                                    .download-parent__bensubheader Добавляйте расаписание приема лекарств
+                                    .download-container
+                                        .download-parent__benheader Прием лекарств
+                                        .download-parent__bensubheader Добавляйте расаписание приема лекарств
                                 .download-parent__benefit.download-parent__benefit--third.swiper-slide 
-                                    .download-parent__benheader Изменение показателей
-                                    .download-parent__bensubheader Контролируйте, анализируйте и наблюдайте за показателями здоровья
+                                    .download-container
+                                        .download-parent__benheader Изменение показателей
+                                        .download-parent__bensubheader Контролируйте, анализируйте и наблюдайте за показателями здоровья
 
                     .download-parent__download-links 
                         a(href="#")

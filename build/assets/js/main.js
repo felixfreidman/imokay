@@ -124,6 +124,22 @@ faqCards.forEach(function (card) {
     card.classList.toggle('faq-parent__card--active');
   });
 });
+var burgerMenu = document.querySelector(".mobile-header__burger-menu");
+var mobileMenu = document.querySelector(".mobile-menu");
+var mobileNavigation = document.getElementById("mobileNavigation");
+var allLinks = mobileNavigation.querySelectorAll(".navigation-link");
+burgerMenu.addEventListener("click", function () {
+  burgerMenu.classList.toggle("mobile-header__burger-menu--active");
+  mobileMenu.classList.toggle("mobile-menu--active");
+  document.querySelector("body").classList.toggle("disable-body");
+});
+allLinks.forEach(function (link) {
+  link.addEventListener("click", function () {
+    burgerMenu.classList.toggle("mobile-header__burger-menu--active");
+    mobileMenu.classList.toggle("mobile-menu--active");
+    document.querySelector("body").classList.toggle("disable-body");
+  });
+});
 var swiperImages = document.querySelectorAll(".preview");
 var imgLinkArray = new Array();
 var returnValue = 0;
@@ -224,21 +240,7 @@ var downloadSwiper = new Swiper('#downloadSwiper ', {
   direction: 'horizontal',
   loop: true,
   speed: 500,
-  spaceBetween: 20,
+  spaceBetween: 50,
   effect: 'cards',
-  slidesPerView: 1,
-  breakpoints: {
-    1050: {
-      slidesPerView: 3,
-      spaceBetween: 20
-    },
-    800: {
-      slidesPerView: 2,
-      spaceBetween: 20
-    },
-    500: {
-      slidesPerView: 1,
-      spaceBetween: 20
-    }
-  }
+  slidesPerView: 1
 });

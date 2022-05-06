@@ -100,21 +100,7 @@ const downloadSwiper = new Swiper('#downloadSwiper ', {
     direction: 'horizontal',
     loop: true,
     speed: 500,
-    spaceBetween: 20,
+    spaceBetween: 50,
     effect: 'cards',
     slidesPerView: 1,
-    breakpoints: {
-        1050: {
-            slidesPerView: 3,
-            spaceBetween: 20
-        },
-        800: {
-            slidesPerView: 2,
-            spaceBetween: 20
-        },
-        500: {
-            slidesPerView: 1,
-            spaceBetween: 20
-        },
-    }
 });
