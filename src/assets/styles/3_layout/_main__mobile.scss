@@ -1,1 +1,1909 @@
-@media screen and (max-width: 1450px) {}
+@media screen and (max-width: 1750px) {
+    .main .buy-parent__section {
+        padding: 20px;
+        width: calc(100% - 40px);
+
+    }
+
+    .main .buy-parent__button {
+        padding: 16px 80px;
+    }
+
+    .header {
+        padding: 12px 270px;
+        width: calc(100% - 540px);
+
+        .logo {}
+
+        .navigation {
+
+            .navigation-link {}
+
+
+        }
+
+        .phone {
+
+            .phone-logo {}
+
+            .phone-num {}
+        }
+    }
+
+    .main {
+
+
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {}
+
+        .greeting-parent {
+            .greeting-container {}
+
+            .container {}
+
+            .float-container {
+                right: 150px;
+
+                &__label {
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {}
+                }
+            }
+
+            .greeting-image {
+                width: 45%;
+            }
+
+            &__header {}
+
+            &__subheader {
+                width: 40%;
+            }
+
+            &__button {}
+
+            &__developers {}
+
+            &__developers-logo {}
+
+            &__developers-caption {}
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .header {
+        padding: 12px 230px;
+        width: calc(100% - 460px);
+
+        .logo {}
+
+        .navigation {
+
+            .navigation-link {
+                font-size: 14px;
+                margin-right: 38px;
+            }
+
+
+        }
+
+        .phone {
+
+            .phone-logo {}
+
+            .phone-num {}
+        }
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {}
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 0 40px 80px;
+                width: calc(100% - 80px);
+            }
+
+            .container {}
+
+            .float-container {
+                right: 150px;
+
+                &__label {
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {}
+                }
+            }
+
+            .greeting-image {
+                width: 45%;
+                height: 70%;
+            }
+
+            &__header {}
+
+            &__subheader {
+                width: 40%;
+            }
+
+            &__button {}
+
+            &__developers {}
+
+            &__developers-logo {}
+
+            &__developers-caption {}
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 120px;
+            padding: 0px 230px;
+            width: calc(100% - 460px);
+        }
+
+        .functions-parent {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
+
+            &__card {
+                margin-right: 24px;
+                margin-bottom: 24px;
+                border-radius: 20px;
+                background-color: $low;
+                padding: 40px 40px;
+                width: calc(25% - 104px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 1px 1px rgb(255 255 255 / 8%), 0 1px 1px rgb(0 0 0 / 15%);
+                // border: 1px solid;
+                // border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) -0.03%, rgba(0, 0, 0, 0.08) 100.03%);
+
+                &:nth-child(4n) {
+                    margin-right: 0;
+                    width: calc(25% - 80px);
+                }
+
+                &:hover {
+                    .functions-parent__image {
+                        transform: scale(1.3);
+                    }
+                }
+            }
+
+            &__header {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+            }
+
+            &__image {
+                transition: all 0.5s ease;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .main .buy-parent .swiper-container .swiper-slide {
+        height: 350px;
+    }
+
+    .main .buy-parent .swiper-container .swiper-pagination-bullets {
+        bottom: 100px;
+    }
+
+    .header {
+        padding: 12px 180px 12px 180px;
+        width: calc(100% - 360px);
+
+        .logo {}
+
+        .navigation {
+
+            .navigation-link {
+                font-size: 14px;
+                margin-right: 38px;
+            }
+
+
+        }
+
+        .phone {
+
+            .phone-logo {}
+
+            .phone-num {}
+        }
+    }
+
+    .main {
+
+
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {
+            width: calc(100% - 200px);
+            padding: 100px 100px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 0 40px 80px;
+                width: calc(100% - 80px);
+            }
+
+            .container {}
+
+            .float-container {
+                right: 150px;
+
+                &__label {
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {}
+                }
+            }
+
+            .greeting-image {
+                width: 45%;
+                height: 70%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+            }
+
+            &__subheader {
+                width: 40%;
+                margin-bottom: 60px;
+            }
+
+            &__button {
+                margin-bottom: 80px;
+            }
+
+            &__developers {}
+
+            &__developers-logo {}
+
+            &__developers-caption {}
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 120px;
+            padding: 0px 180px;
+            width: calc(100% - 360px);
+        }
+
+        .functions-parent {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
+
+            &__card {
+                margin-right: 24px;
+                margin-bottom: 24px;
+                border-radius: 20px;
+                background-color: $low;
+                padding: 40px 40px;
+                width: calc(25% - 104px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 1px 1px rgb(255 255 255 / 8%), 0 1px 1px rgb(0 0 0 / 15%);
+                // border: 1px solid;
+                // border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) -0.03%, rgba(0, 0, 0, 0.08) 100.03%);
+
+                &:nth-child(4n) {
+                    margin-right: 0;
+                    width: calc(25% - 80px);
+                }
+
+                &:hover {
+                    .functions-parent__image {
+                        transform: scale(1.3);
+                    }
+                }
+            }
+
+            &__header {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            &__image {
+                transition: all 0.5s ease;
+            }
+        }
+
+    }
+
+    .main .about-parent__image {
+        max-width: 450px !important;
+        transform: scale(1) !important;
+    }
+
+    .main .about-parent__image--first {
+        max-width: 550px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main .buy-parent__button {
+        padding: 16px 50px;
+    }
+
+    .main .buy-parent .flex-card__header {
+        font-size: 15px;
+    }
+
+    .main .buy-parent__card .card-header {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+
+    .main .buy-parent__card .card-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .header {
+        padding: 12px 120px;
+        width: calc(100% - 240px);
+
+        .navigation {
+
+            .navigation-link {
+                font-size: 14px;
+                margin-right: 38px;
+            }
+
+
+        }
+    }
+
+    .main {
+
+
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 0 40px 40px;
+                width: calc(100% - 40px);
+            }
+
+            .container {}
+
+            .float-container {
+                right: 150px;
+
+                &__label {
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {}
+                }
+            }
+
+            .greeting-image {
+                width: 45%;
+                height: 70%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+            }
+
+            &__subheader {
+                width: 50%;
+                margin-bottom: 60px;
+            }
+
+            &__button {
+                margin-bottom: 80px;
+            }
+
+            &__developers {}
+
+            &__developers-logo {}
+
+            &__developers-caption {}
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 120px;
+            padding: 0px 120px;
+            width: calc(100% - 240px);
+        }
+
+        .functions-parent {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
+
+            &__card {
+                margin-right: 24px;
+                margin-bottom: 24px;
+                border-radius: 20px;
+                background-color: $low;
+                padding: 40px 40px;
+                width: calc(25% - 104px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 1px 1px rgb(255 255 255 / 8%), 0 1px 1px rgb(0 0 0 / 15%);
+                // border: 1px solid;
+                // border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) -0.03%, rgba(0, 0, 0, 0.08) 100.03%);
+
+                &:nth-child(4n) {
+                    margin-right: 0;
+                    width: calc(25% - 80px);
+                }
+
+                &:hover {
+                    .functions-parent__image {
+                        transform: scale(1.3);
+                    }
+                }
+            }
+
+            &__header {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            &__image {
+                transition: all 0.5s ease;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .header {
+        padding: 12px 120px;
+        width: calc(100% - 240px);
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+    }
+
+    .main {
+
+
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 0 40px 40px;
+                width: calc(100% - 40px);
+            }
+
+            .container {}
+
+            .float-container {
+                right: 150px;
+
+                &__label {
+                    padding: 9px 12px;
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: 45%;
+                height: 70%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+                width: 60%;
+            }
+
+            &__subheader {
+                width: 50%;
+                margin-bottom: 50px;
+            }
+
+            &__button {
+                margin-bottom: 70px;
+            }
+
+            &__developers {}
+
+            &__developers-logo {}
+
+            &__developers-caption {}
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .main .buy-parent .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .main .buy-parent .swiper-container {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main .buy-parent .swiper-container .swiper-slide {
+        height: 450px;
+    }
+
+    .main .buy-parent .swiper-container .swiper-pagination-bullets {
+        display: none;
+    }
+
+    .main .buy-parent .swiper-container {
+        height: 100%;
+        margin-bottom: 12px;
+        left: 0;
+    }
+
+    .main .buy-parent__card {
+        width: 100% !important;
+        display: flex;
+        align-items: start;
+        margin-bottom: 20px !important;
+
+        .card-container {
+            margin-left: 15px;
+        }
+    }
+
+    .main .buy-parent__info {
+        width: calc(100%);
+        position: relative;
+        margin-left: 0;
+    }
+
+    .header {
+        padding: 12px 120px;
+        width: calc(100% - 240px);
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+            display: none;
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+
+        .phone {
+            display: none;
+        }
+    }
+
+    .main .about-parent__card {
+        margin-bottom: 48px;
+        flex-direction: column;
+
+        .container {
+            width: 100%;
+            padding-top: 235px;
+        }
+    }
+
+    .main .about-parent__image {
+        max-width: 400px !important;
+        transform: scale(1) !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-height: 280px;
+    }
+
+    .main .about-parent__image--first {
+        max-width: 500px !important;
+        max-height: 330px;
+    }
+
+    .main {
+        .section-header {
+            text-align: center;
+        }
+
+        .section-subheader {
+
+            text-align: center;
+        }
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 40px 382px 40px;
+                width: calc(100% - 80px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 40px;
+                bottom: 150px;
+
+                &__label {
+                    padding: 9px 12px;
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: 60%;
+                height: 60%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+                width: 100%;
+            }
+
+            &__subheader {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__button {
+                margin-bottom: 0px;
+                position: absolute;
+                bottom: -108px;
+                padding: 16px 0;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+
+            }
+
+            &__developers {
+                width: 60%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 60%;
+            }
+        }
+
+        &--functions {
+            margin-top: 158px !important;
+        }
+
+        &--video {
+            margin-top: 120px !important;
+        }
+
+        .video-parent {
+            .container {
+                height: 450px;
+            }
+
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 48px;
+            padding: 0px 120px;
+            width: calc(100% - 240px);
+        }
+
+
+
+        .functions-parent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .container {
+                display: none;
+                flex-wrap: wrap;
+                margin-top: 40px;
+            }
+
+            &__card {
+                margin-right: 24px;
+                margin-bottom: 24px;
+                border-radius: 20px;
+                background-color: $low;
+                padding: 40px 40px;
+                width: calc(25% - 104px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 1px 1px rgb(255 255 255 / 8%), 0 1px 1px rgb(0 0 0 / 15%);
+                // border: 1px solid;
+                // border-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) -0.03%, rgba(0, 0, 0, 0.08) 100.03%);
+
+                &:nth-child(4n) {
+                    margin-right: 0;
+                    width: calc(25% - 80px);
+                }
+
+                &:hover {
+                    .functions-parent__image {
+                        transform: scale(1.3);
+                    }
+                }
+            }
+
+            &__header {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            &__image {
+                transition: all 0.5s ease;
+            }
+
+            .swiper-container--functions {
+                display: flex;
+                width: 100%;
+
+                .swiper {
+                    margin-top: 20px;
+                    width: 100%;
+                    position: relative;
+
+                    .swiper-wrapper {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .main .emergency-parent .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .emergency-parent__card {
+        width: calc(100% - 80px);
+        margin-right: 0;
+        margin-bottom: 52px;
+
+        &:hover {
+            transform: translateY(0);
+            background-color: $primary;
+
+            .emergency-parent__header {
+                color: #fff;
+            }
+
+            .emergency-parent__content {
+                color: #fff;
+            }
+        }
+
+    }
+
+    .main .emergency-parent__image {
+        width: 100%;
+
+        img {
+            width: 100%;
+
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-parent__card .section-header {
+        width: 100%;
+        text-align: left !important;
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 40px 332px 40px;
+                width: calc(100% - 80px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 40px;
+                bottom: 150px;
+
+                &__label {
+                    padding: 9px 12px;
+
+                    &--first-r {}
+
+                    &--second-r {}
+
+                    &--third-r {}
+
+                    span {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: 60%;
+                height: 50%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+                width: 100%;
+            }
+
+            &__subheader {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__button {
+                margin-bottom: 0px;
+                position: absolute;
+                bottom: -108px;
+                padding: 16px 0;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+
+            }
+
+            &__developers {
+                width: 60%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 60%;
+            }
+        }
+
+        .video-parent {
+            .container {
+                height: 350px;
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .header {
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+        width: calc(100% - 32px);
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        .video-parent {
+            .container {
+                height: 250px;
+                padding: 20px;
+                width: calc(100% - 40px);
+            }
+
+            &__caption {
+                font-size: 14px;
+                line-height: 20px;
+                width: 60%;
+            }
+
+            &__label {
+                top: 20px;
+                right: 20px;
+            }
+
+        }
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 48px;
+            padding: 0px 16px;
+            width: calc(100% - 32px);
+        }
+
+
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 40px 382px 40px;
+                width: calc(100% - 80px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 40px;
+                bottom: 00px;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: 70%;
+                height: 50%;
+            }
+
+            &__header {
+                font-size: 43px;
+                line-height: 43px;
+                width: 100%;
+            }
+
+            &__subheader {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__button {
+                margin-bottom: 0px;
+                position: absolute;
+                bottom: -108px;
+                padding: 16px 0;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+
+            }
+
+            &__developers {
+                width: 80%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 60%;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .main {
+        .section-header {
+            font-size: 22px;
+            line-height: 24px;
+            margin-bottom: 8px;
+        }
+
+        .section-subheader {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        &--greeting {
+            width: calc(100% - 160px);
+            padding: 100px 80px 0;
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 40px 40px 382px 40px;
+                width: calc(100% - 80px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 40px;
+                bottom: 0px;
+
+                pointer-events: none;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    pointer-events: none;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: 100%;
+                height: 60%;
+                pointer-events: none;
+                right: -50px;
+            }
+
+            &__header {
+                font-size: 26px;
+                line-height: 28px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            &__subheader {
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__button {
+                margin-bottom: 0px;
+                position: absolute;
+                bottom: -108px;
+                padding: 16px 0;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+
+            }
+
+            &__developers {
+                width: 80%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 80%;
+            }
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 48px;
+            padding: 0px 80px;
+            width: calc(100% - 160px);
+        }
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main .about-parent__card {
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .main .emergency-parent__header {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .main .emergency-parent__content {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .header {
+        padding: 12px 20px;
+        width: calc(100% - 40px);
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+            display: none;
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+
+        .phone {
+            display: none;
+        }
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        &--greeting {
+            width: calc(100% - 32px);
+            padding: 100px 16px 0;
+        }
+
+        &--functions,
+        &--video,
+        &--about,
+        &--emergency,
+        &--buy,
+        &--feedback,
+        &--faq,
+        &--download {
+            margin-top: 48px;
+            padding: 0px 16px;
+            width: calc(100% - 32px);
+        }
+
+        .video-parent {
+            .container {
+                height: 160px;
+            }
+
+            &__play-icon {
+                width: 48px;
+                height: 48px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &__label {
+                font-size: 12px;
+                padding: 2px 12px;
+            }
+
+            &__caption {
+                width: 80%;
+            }
+        }
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 20px 20px 405px 20px;
+                width: calc(100% - 40px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 40px;
+                bottom: 0px;
+                z-index: 100;
+
+                pointer-events: none;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    pointer-events: none;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: calc(100% + 20px);
+                height: 55%;
+                pointer-events: none;
+                right: -50px;
+            }
+
+            &__header {
+                font-size: 26px;
+                line-height: 28px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            &__subheader {
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__developers {
+                width: 80%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 80%;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main .buy-parent .swiper-container .swiper-slide {
+        height: 300px;
+    }
+
+    .main .emergency-parent__card {
+        padding: 20px;
+        width: calc(100% - 20px);
+    }
+
+    .main .about-parent__image {
+        max-width: 320px !important;
+        transform: scale(1) !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-height: 280px;
+    }
+
+    .main .about-parent__image--first {
+        max-width: 360px !important;
+        max-height: 330px;
+    }
+
+    .header {
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+            display: none;
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+
+        .phone {
+            display: none;
+        }
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 20px 20px 332px 20px;
+                width: calc(100% - 40px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 20px;
+                bottom: 0px;
+                z-index: 100;
+
+                pointer-events: none;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    pointer-events: none;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: calc(100% + 20px);
+                height: 50%;
+                pointer-events: none;
+                right: -50px;
+            }
+
+            &__header {
+                font-size: 26px;
+                line-height: 28px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            &__subheader {
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__developers {
+                width: 80%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 80%;
+            }
+        }
+
+
+
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+            display: none;
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+
+        .phone {
+            display: none;
+        }
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 20px 20px 282px 20px;
+                width: calc(100% - 40px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 20px;
+                bottom: 0px;
+                z-index: 100;
+
+                pointer-events: none;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    pointer-events: none;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: calc(100% + 20px);
+                height: 45%;
+                pointer-events: none;
+                right: -50px;
+            }
+
+            &__header {
+                font-size: 26px;
+                line-height: 28px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            &__subheader {
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__developers {
+                width: 80%;
+            }
+
+            &__developers-logo {}
+
+            &__developers-caption {
+                max-width: 100%;
+                width: 80%;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main .buy-parent .swiper-container .swiper-slide {
+        height: 250px;
+    }
+
+    .main .buy-parent__product-header {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .main .buy-parent__product-color .color-container .color-box {
+        margin-right: 3px;
+    }
+
+    .main .buy-parent__price-tag {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    .main .buy-parent__caption {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .main .buy-parent .flex-card__header {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .main .buy-parent .flex-card .open-indicator {
+        top: 20px;
+        right: 20px;
+    }
+
+    .main .buy-parent .flex-card {
+        padding: 15px 20px;
+        width: calc(100% - 40px);
+    }
+
+    .main .buy-parent__button {
+        padding: 10px 30px;
+    }
+
+    .main .buy-parent__product-color {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .main .buy-parent__product-description {
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .main .about-parent__image {
+        max-width: 250px !important;
+        transform: scale(1) !important;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-height: 280px;
+    }
+
+    .main .about-parent__image--first {
+        max-width: 320px !important;
+        max-height: 330px;
+    }
+
+    .main .about-parent__card {
+        margin-bottom: 48px;
+        flex-direction: column;
+
+        .container {
+            width: 100%;
+            padding-top: 185px;
+        }
+    }
+
+    .header {
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        .navigation {
+            display: none;
+
+            .navigation-link {
+                font-size: 13px;
+                margin-right: 24px;
+            }
+
+
+        }
+
+        .phone {
+            display: none;
+        }
+    }
+
+    .main {
+        .section-header {}
+
+        .section-subheader {}
+
+        .greeting-parent {
+            .greeting-container {
+                padding: 20px 20px 282px 20px;
+                width: calc(100% - 40px);
+                overflow: visible;
+            }
+
+            .container {}
+
+            .float-container {
+                right: 40px;
+                margin-left: 20px;
+                bottom: 0px;
+                z-index: 100;
+
+                pointer-events: none;
+
+                &__label {
+                    padding: 8px 12px;
+
+                    pointer-events: none;
+
+                    &--first-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--second-r {
+                        margin-bottom: 10px;
+                    }
+
+                    &--third-r {
+                        margin-bottom: 10px;
+                    }
+
+                    span {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .greeting-image {
+                width: calc(100% + 20px);
+                height: 45%;
+                pointer-events: none;
+                right: -50px;
+            }
+
+            &__header {
+                font-size: 22px;
+                line-height: 24px;
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            &__subheader {
+                font-size: 12px;
+                line-height: 16px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            &__developers {
+                width: 100%;
+            }
+
+            &__developers-logo {
+                width: 32px;
+                height: 32px;
+                margin-right: 12px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &__developers-caption {
+                max-width: 100%;
+                width: calc(100% - 44px);
+                font-size: 10px;
+                line-height: 16px;
+            }
+        }
+
+
+    }
+}

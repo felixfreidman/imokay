@@ -39,3 +39,26 @@ const feedbackSwiper = new Swiper('#feedbackSwiper', {
     effect: 'cards',
     slidesPerView: '4',
 });
+const functionSwiper = new Swiper('#functionsSwiper', {
+    direction: 'horizontal',
+    loop: true,
+    speed: 500,
+    spaceBetween: 20,
+    effect: 'cards',
+    slidesPerView: 1,
+    breakpoints: {
+        1050: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        800: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        500: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+    }
+});
+

@@ -100,6 +100,66 @@ html(lang="en")
                             | Имеют нехарактерные 
                             br
                             | показатели здоровья
+                .swiper-container--functions
+                    .swiper#functionsSwiper
+                        .swiper-wrapper 
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_fall.svg", alt="")
+                                .functions-parent__header 
+                                    | Упадут 
+                                    br
+                                    | или споткнутся
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_food.svg", alt="")
+                                .functions-parent__header
+                                    | Пропустят 
+                                    br
+                                    | прием пищи
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_bed.svg", alt="")
+                                .functions-parent__header 
+                                    | Не встанут 
+                                    br
+                                    | с кровати
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_amb.svg", alt="")
+                                .functions-parent__header 
+                                    | Нуждаются
+                                    br
+                                    | в экстренной помощи
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_sleep.svg", alt="")
+                                .functions-parent__header 
+                                    | Имеют плохой 
+                                    br
+                                    | ночной сон
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_pills.svg", alt="")
+                                .functions-parent__header 
+                                    | Не принимают 
+                                    br
+                                    | таблетки
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_worry.svg", alt="")
+                                .functions-parent__header 
+                                    | Сильно 
+                                    br 
+                                    | волнуются
+                            .functions-parent__card.swiper-slide 
+                                .functions-parent__image
+                                    img(src="./assets/images/content/cnd_health.svg", alt="")
+                                .functions-parent__header 
+                                    | Имеют нехарактерные 
+                                    br
+                                    | показатели здоровья
+               
             .main--video.video-parent
                 .container
                     .video-parent__caption Расскажем о нашем сервисе за 3 минуты
@@ -203,33 +263,39 @@ html(lang="en")
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/tonometr.svg", alt="")
-                                    .card-header Встроенный тонометр
-                                    .card-description Для измерения артериального давления. Диагностирует сердечно-сосудистые заболевания
+                                    .card-container
+                                        .card-header Встроенный тонометр
+                                        .card-description Для измерения артериального давления. Диагностирует сердечно-сосудистые заболевания
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/sensor.svg", alt="")
-                                    .card-header Сенсор сердеченого ритма
-                                    .card-description Для измерения ЧСС. Фиксирует нарушение ритма, мерцательную аритмию
+                                    .card-container
+                                        .card-header Сенсор сердеченого ритма
+                                        .card-description Для измерения ЧСС. Фиксирует нарушение ритма, мерцательную аритмию
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/stress.svg", alt="")
-                                    .card-header Интегрированный пульсооксиметр
-                                    .card-description Диагностируйте сердечно-сосудистые и легочные  заболевания, измеряя сатурацию и уровень стресса
+                                    .card-container
+                                        .card-header Интегрированный пульсооксиметр
+                                        .card-description Диагностируйте сердечно-сосудистые и легочные  заболевания, измеряя сатурацию и уровень стресса
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/fall.svg", alt="")
-                                    .card-header Умный датчик 
-                                    .card-description Чувствительные ИИ-сенсоры определяют падение
+                                    .card-container
+                                        .card-header Умный датчик 
+                                        .card-description Чувствительные ИИ-сенсоры определяют падение
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/sos.svg", alt="")
-                                    .card-header SOS-кнопка
-                                    .card-description Гарантируем экстренную медицинскую помощь в течение 12 минут и в любой точке России
+                                    .card-container
+                                        .card-header SOS-кнопка
+                                        .card-description Гарантируем экстренную медицинскую помощь в течение 12 минут и в любой точке России
                                 .buy-parent__card 
                                     .card-logo 
                                         img(src="./assets/images/content/hand.svg", alt="")
-                                    .card-header Всегда на запястии
-                                    .card-description Устройство не нужно снимать с запястия для зарядки.
+                                    .card-container
+                                        .card-header Всегда на запястии
+                                        .card-description Устройство не нужно снимать с запястия для зарядки.
                         .flex-card
                             .open-indicator 
                                 img(src="./assets/images/content/arrow.svg", alt="") 
