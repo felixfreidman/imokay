@@ -627,7 +627,28 @@ html(lang="en")
                 br
                 | комната № 4 Б
             .credentials-section @ 2021-2022, I’m OK
-
+        .dark-layer.js--hidden
+            .form.apply-form#applyForm 
+                .form-close#closeForm
+                    span.cross-one 
+                    span.cross-two
+                .form-header Оформление заказа
+                .form-subheader Для оплаты товара потребуются ваши данные
+                label(for="userName") ФИО
+                    input.form-input#userName(type="text", name="userName", placeholder="ФИО")
+                .form-row
+                    label(for="userPhone") Ваш телефон
+                        input.form-input#userPhone(type="text", name="userName" ,placeholder="Телефон", data-inputmask="'mask' : '+7(999) 999-99-99'", inputmode="text")
+                    label(for="userCompany") Ваш город
+                        input.form-input#userCompany(type="text", name="userName" ,placeholder="Введите город")
+                .form-row
+                    label(for="userCompany") Адрес
+                        input.form-input#userCompany(type="text", name="userName" ,placeholder="Введите адрес")
+                    label(for="userCompany") Квартира
+                        input.form-input#userCompany(type="text", name="userName" ,placeholder="Введите номер квартиры")
+                button.form-button(type="submit") Оплатить заказ
+                .form-caption Нажимая кнопку «Оплатить заказ», вы принимаете пользовательское соглашение
+            
         script(src="./assets/js/jquery.min.js") 
         script(src="./assets/js/plugins.min.js") 
         script(src="./assets/js/main.min.js") 

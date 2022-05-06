@@ -30,3 +30,25 @@ allLinks.forEach((link) => {
         document.querySelector("body").classList.toggle("disable-body");
     });
 });
+
+const darkLayer = document.querySelector(".dark-layer");
+const applyBtns = document.querySelector(".buy-parent__button");
+const closeForm = document.getElementById("closeForm");
+applyBtns.addEventListener("click", () => {
+    darkLayer.classList.toggle("js--hidden");
+});
+
+
+closeForm.addEventListener("click", () => {
+    darkLayer.classList.toggle("js--hidden");
+});
+
+$(document).ready(function () {
+    $("#userPhone").inputmask();
+});
+
+window.onclick = function (event) {
+    if (event.target == darkLayer) {
+        darkLayer.classList.toggle("js--hidden");
+    }
+};

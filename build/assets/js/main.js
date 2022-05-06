@@ -140,6 +140,25 @@ allLinks.forEach(function (link) {
     document.querySelector("body").classList.toggle("disable-body");
   });
 });
+var darkLayer = document.querySelector(".dark-layer");
+var applyBtns = document.querySelector(".buy-parent__button");
+var closeForm = document.getElementById("closeForm");
+applyBtns.addEventListener("click", function () {
+  darkLayer.classList.toggle("js--hidden");
+});
+closeForm.addEventListener("click", function () {
+  darkLayer.classList.toggle("js--hidden");
+});
+$(document).ready(function () {
+  $("#userPhone").inputmask();
+});
+
+window.onclick = function (event) {
+  if (event.target == darkLayer) {
+    darkLayer.classList.toggle("js--hidden");
+  }
+};
+
 var swiperImages = document.querySelectorAll(".preview");
 var imgLinkArray = new Array();
 var returnValue = 0;

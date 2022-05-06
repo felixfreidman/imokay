@@ -1453,6 +1453,28 @@
 }
 
 @media screen and (max-width: 700px) {
+
+    .apply-form,
+    .applied-screen {
+        padding: 20px 20px;
+        max-width: 446px;
+        width: 80%;
+
+        .form-close {
+            top: 20px;
+            right: 20px;
+        }
+
+        .form-row {
+            flex-direction: column;
+            width: 100%;
+
+            label {
+                width: 100%;
+            }
+        }
+    }
+
     .footer {
         .contact-section__logo {
             margin-right: 22px !important;
@@ -1619,6 +1641,37 @@
 }
 
 @media screen and (max-width: 590px) {
+
+    .apply-form,
+    .applied-screen {
+        padding: 20px 20px;
+        max-width: 446px;
+        width: 80%;
+
+        .form-close {
+            top: 20px;
+            right: 20px;
+        }
+
+        .form-header {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        .form-subheader {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+
+        .form-input {
+            height: 48px;
+            padding: 0 20px;
+        }
+    }
+
     .mobile-menu {
         .navigation {
             &-link {
@@ -1804,6 +1857,38 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .apply-form,
+    .applied-screen {
+        padding: 20px 20px;
+        max-width: 446px;
+        width: 80%;
+
+        .form-close {
+            top: 20px;
+            right: 20px;
+        }
+
+        .form-row {
+            flex-direction: column;
+            width: 100%;
+
+            label {
+                width: 100%;
+            }
+        }
+
+        .form-input {
+            margin-top: 3px;
+            margin-bottom: 8px;
+        }
+
+        .form-caption {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+
     .main .download-parent__download-links {
         display: flex;
         flex-direction: column;
@@ -2115,6 +2200,64 @@
 }
 
 @media screen and (max-width: 350px) {
+
+    .apply-form,
+    .applied-screen {
+        padding: 20px 20px;
+        max-width: 446px;
+        width: 80%;
+
+        .form-close {
+            top: 20px;
+            right: 20px;
+        }
+
+        label {
+            font-size: 14px;
+        }
+
+        .form-row {
+            flex-direction: column;
+            width: 100%;
+
+            label {
+                width: 100%;
+            }
+        }
+
+        .form-header {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 5px;
+        }
+
+        .form-subheader {
+            font-size: 15px;
+            line-height: 18px;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            margin-top: 3px;
+            margin-bottom: 5px;
+            height: 32px;
+            padding: 0 10px;
+            font-size: 12px;
+            width: calc(100% - 20px);
+        }
+
+        .form-caption {
+            font-size: 10px;
+            line-height: 12px;
+        }
+
+        .form-button {
+            padding: 12px 20px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+
     .main .buy-parent .swiper-container .swiper-slide {
         height: 250px;
     }
